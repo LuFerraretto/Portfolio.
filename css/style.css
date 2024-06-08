@@ -1,6 +1,5 @@
 body{
     display: flex;
-    text-align: center;
     align-content: center;
     justify-content: center;
 }
@@ -25,7 +24,7 @@ nav {
 }
 
 .contact:hover{
-    text-decoration: underline 2px #9a652b;
+    text-decoration: underline 2px #905a1b;
     cursor: pointer;
 
 }
@@ -37,7 +36,7 @@ nav {
 }
 
 .services:hover{
-    text-decoration: underline 2px #9a652b;
+    text-decoration: underline 2px #905a1b;
     cursor: pointer;
 
 }
@@ -49,7 +48,7 @@ nav {
 }
 
 .about:hover{
-    text-decoration: underline 2px #9a652b;
+    text-decoration: underline 2px #905a1b;
     cursor: pointer;
 
 }
@@ -61,7 +60,7 @@ nav {
 }
 
 .portfolio:hover{
-    text-decoration: underline 2px #9a652b;
+    text-decoration: underline 2px #905a1b;
     cursor: pointer;
 
 }
@@ -69,14 +68,13 @@ nav {
 
 .hero {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
     flex-wrap: wrap;
     flex-direction: column;
-    margin: 20%;
-    vertical-align: middle;
+    margin-top: 20%;
     float: left;
-    margin-left: 65%;
+    margin-left: 60%;
     text-align: left;
 }
 
@@ -88,6 +86,7 @@ div img{
     padding: 0;
     top: 20%;
     right: 40%;
+    box-shadow: 3px;
 }
 
 .hero h1{
@@ -95,6 +94,7 @@ div img{
   font-weight: 400;
   font-style: normal;
   letter-spacing: 2px;
+  width: 50%;
 }
 
 .hero h2{
@@ -102,14 +102,16 @@ div img{
     font-weight: 400;
     font-style: normal;
     font-size: medium;
-    text-align: left;
+    text-align: left;      /*CORREGIR TIPO DE LETRA*/
     letter-spacing: 1px;
     padding: 0;
     margin: 0;
+    color: #905a1b;
   }
 
   .hero p{
     font-family: Arial, Helvetica, sans-serif;
+    width: 60%;
   }
 
   button{
@@ -117,9 +119,10 @@ div img{
     background-color: #e6814b;
     color: white;
     border: none;
-    padding: 8px 20px;
+    padding: 12px 18px;
     font-family: "Bebas Neue", sans-serif;
     transition: background 2s;
+    width: 25%;
   }
 
   button:hover{
@@ -127,3 +130,42 @@ div img{
     color: #e6814b;
     cursor: pointer;
   }
+
+ .barra-lateral{
+    position: fixed;
+    margin: 0;
+    padding-left: 5%;
+    padding-top: 2%;
+    left: 0;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6814b;
+    height: 100%;
+    text-align: left;
+    width: 20%;
+    color: white;
+ }
+
+.barra-lateral .encabezado{
+    display: flex;
+    align-items: center;
+    padding-bottom: 120%;
+}
+
+.barra-lateral .encabezado p{
+    padding: 0;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1.5px;
+    font-size: large;
+}
+
+.barra-lateral .titulo{
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1.5px;
+}
+
+.barra-lateral i{
+    padding-right: 10%;
+}
+
