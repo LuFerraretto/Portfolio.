@@ -2,23 +2,66 @@ body{
     display: flex;
     text-align: center;
     align-content: center;
+    justify-content: center;
 }
 
-.hero h1 {
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-.hero p{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.hero h2{
-    font-family: ;
-}
-
-header{
+nav {
+    position: fixed;
     display: inline-flex;
-    background-color: #e6814b;
+    margin: 0;
+    padding: 0;
+    right: 5%;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    flex-direction: row-reverse;
+
+}
+
+.contact{
+    text-decoration: underline white;
+    transition: 1s;
+
+}
+
+.contact:hover{
+    text-decoration: underline #e6814b;
+    cursor: pointer;
+
+}
+
+.services{
+    text-decoration: underline white;
+    transition: 1s;
+
+}
+
+.services:hover{
+    text-decoration: underline #e6814b;
+    cursor: pointer;
+
+}
+
+.about{
+    text-decoration: underline white;
+    transition: 1s;
+
+}
+
+.about:hover{
+    text-decoration: underline #e6814b;
+    cursor: pointer;
+
+}
+
+.portfolio{
+    text-decoration: underline white;
+    transition: 1s;
+
+}
+
+.portfolio:hover{
+    text-decoration: underline #e6814b;
+    cursor: pointer;
+
 }
