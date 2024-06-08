@@ -19,49 +19,84 @@ nav {
 }
 
 .contact{
-    text-decoration: underline white;
+    text-decoration: underline 2px white;
     transition: 1s;
 
 }
 
 .contact:hover{
-    text-decoration: underline #e6814b;
+    text-decoration: underline 2px #9a652b;
     cursor: pointer;
 
 }
 
 .services{
-    text-decoration: underline white;
+    text-decoration: underline 2px white;
     transition: 1s;
 
 }
 
 .services:hover{
-    text-decoration: underline #e6814b;
+    text-decoration: underline 2px #9a652b;
     cursor: pointer;
 
 }
 
 .about{
-    text-decoration: underline white;
+    text-decoration: underline 2px white;
     transition: 1s;
 
 }
 
 .about:hover{
-    text-decoration: underline #e6814b;
+    text-decoration: underline 2px #9a652b;
     cursor: pointer;
 
 }
 
 .portfolio{
-    text-decoration: underline white;
+    text-decoration: underline 2px white;
     transition: 1s;
 
 }
 
 .portfolio:hover{
-    text-decoration: underline #e6814b;
+    text-decoration: underline 2px #9a652b;
     cursor: pointer;
 
+}
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 20%;
+    vertical-align: middle;
+    float: left;
+    margin-left: 65%;
+    text-align: left;
+}
+
+div img{
+    width: 450px;
+    height: 550px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 20%;
+    right: 40%;
+}
+
+.hero h1{
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px;
+}
+
+.hero h2{
+    
 }
