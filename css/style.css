@@ -2,6 +2,8 @@ body{
     display: flex;
     align-content: center;
     justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 
 nav {
@@ -66,71 +68,6 @@ nav {
 }
 
 
-.hero {
-    display: flex;
-    align-items: left;
-    justify-content: left;
-    flex-wrap: wrap;
-    flex-direction: column;
-    margin-top: 20%;
-    float: left;
-    margin-left: 60%;
-    text-align: left;
-}
-
-div img{
-    width: 450px;
-    height: 550px;
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    top: 20%;
-    right: 40%;
-    box-shadow: 3px;
-}
-
-.hero h1{
-    font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  letter-spacing: 2px;
-  width: 50%;
-}
-
-.hero h2{
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: medium;
-    text-align: left;      /*CORREGIR TIPO DE LETRA*/
-    letter-spacing: 1px;
-    padding: 0;
-    margin: 0;
-    color: #905a1b;
-  }
-
-  .hero p{
-    font-family: Arial, Helvetica, sans-serif;
-    width: 60%;
-  }
-
-  button{
-    border-radius: 0px;
-    background-color: #e6814b;
-    color: white;
-    border: none;
-    padding: 12px 18px;
-    font-family: "Bebas Neue", sans-serif;
-    transition: background 2s;
-    width: 25%;
-  }
-
-  button:hover{
-    background: white;
-    color: #e6814b;
-    cursor: pointer;
-  }
-
  .barra-lateral{
     position: fixed;
     margin: 0;
@@ -169,3 +106,55 @@ div img{
     padding-right: 10%;
 }
 
+
+.hero {
+    width: 100%;
+    
+}
+
+
+
+
+.hero h1{
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px;
+  width: 40%;
+}
+
+.hero h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: medium;
+    text-align: left;      /*CORREGIR TIPO DE LETRA*/
+    letter-spacing: 1px;
+    padding: 0;
+    margin: 0;
+    color: #905a1b;
+  }
+
+  .hero p{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+  }
+
+  button{
+    border-radius: 0px;
+    background-color: #e6814b;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    font-family: "Bebas Neue", sans-serif;
+    transition: background 2s;
+    width: 25%;
+  }
+
+  button:hover{
+    background: white;
+    color: #e6814b;
+    cursor: pointer;
+  }
+
+ 
