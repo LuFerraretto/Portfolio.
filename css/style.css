@@ -205,6 +205,7 @@ nav {
 
 .ES{
     display: flex;
+    margin-top: 5%;
 }
 
 .education{
@@ -218,5 +219,24 @@ nav {
 .skills img{
     width: 100%;
     height: 100%;
+}
+
+.servicios{
+    margin-left: 30%;
+    display: flex;
+    width: 60%;
+    margin-top: 15%;
+}
+
+.servicios h1{
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1.5px;
+    font-size: xx-large;
+}
+
+.servicios h2{
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1.5px;
+    font-size: medium;
 }
 
