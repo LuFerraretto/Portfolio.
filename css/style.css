@@ -223,8 +223,7 @@ nav {
 
 .servicios{
     margin-left: 30%;
-    display: flex;
-    width: 60%;
+    width: 100%;
     margin-top: 15%;
 }
 
@@ -232,11 +231,132 @@ nav {
     font-family: "Bebas Neue", sans-serif;
     letter-spacing: 1.5px;
     font-size: xx-large;
+    padding: 0;
+    margin: 0;
 }
 
 .servicios h2{
     font-family: "Bebas Neue", sans-serif;
     letter-spacing: 1.5px;
     font-size: medium;
+}
+
+.uno{
+    display: flex;
+    align-items: baseline;
+}
+.dos{
+    display: flex;
+    align-items: baseline;
+}
+.tres{
+    display: flex;
+    align-items: baseline;
+}
+
+.listas{
+    width: 30%;
+    margin-top: 5%;
+    padding-left: 1%;
+    border: 1.5px solid #e9e8e8;
+    box-shadow: 5px 5px 5px #e9e8e8;
+}
+
+.galeria{
+    width: 30%;
+    padding-left: 1%;
+    border: 1.5px solid #e9e8e8;
+    box-shadow: 5px 5px 5px #e9e8e8;
+    margin-left: 2%;
+
+}
+
+.portafolios{
+    width: 30%;
+    padding-left: 1%;
+    border: 1.5px solid #e9e8e8;
+    box-shadow: 5px 5px 5px #e9e8e8;
+    margin-top: 2%;
+}
+
+.formularios{
+    width: 30%;
+    padding-left: 1%;
+    border: 1.5px solid #e9e8e8;
+    box-shadow: 5px 5px 5px #e9e8e8;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.transiciones{
+    width: 30%;
+    padding-left: 1%;
+    border: 1.5px solid #e9e8e8;
+    box-shadow: 5px 5px 5px #e9e8e8;
+    margin-top: 2%;
+
+}
+
+.paginas-web{
+    width: 30%;
+    padding-left: 1%;
+    border: 1.5px solid #e9e8e8;
+    box-shadow: 5px 5px 5px #e9e8e8;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.contacto{
+    display: flex;
+    margin-left: 30%;
+    margin-top: 15%;
+}
+
+form{
+    background-color: #2a1911;
+    color: white;
+    border: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin-bottom: 10%;
+
+}
+
+form input{
+    background-color: #2a1911;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 1px #7c6e69;
+    padding-top: 8%;
+    padding-bottom: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    width: 80%;
+    margin-left: 9.5%;
+}
+
+form .mensaje{
+    padding-bottom: 30%;
+}
+
+form button{
+    margin-top: 8%;
+    margin-left: 9.5%;
+    width: 81.5%;
+    margin-bottom: 10%;
+}
+
+form h2{
+    margin-left: 9.5%;
+    margin-top: 10%;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2.5px;
+}
+
+.vias-contacto{
+    margin-left: 8%;
 }
 
