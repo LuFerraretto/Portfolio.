@@ -1,54 +1,125 @@
 @media(max-width:320px){
-    .barra-lateral .encabezado{
+   body{
+        width: 10%;
+    }
+    .barra-lateral{
+        position: fixed;
+    }
+
+    .encabezado{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 1%;
-        margin-left: 15%;
     }
-    .pie .email--{
+    .email--{
         font-size: xx-small;
     }
-    .barra-lateral .pie{
+    .pie{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 1%;
+        margin-top: 30%;
     }
     .navbar{
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .hero{
+    .hero-content{
+        padding-top: 40%;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-left: 30px;
+    }
+
+    .hero img{
+        padding-top: 40%;
+    }
+
+    .hero button{
+    }
+
+    .works{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .works button{
+    }
+    .AES{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .skills img{
+    }
+
+    .AES .ES .education{
+    }
+
+    .servicios{
+    }
+
+    .contacto{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .vias-contacto{
+    }
+
+}
+
+@media(max-width:480px){
+    .barra-lateral .encabezado{
         justify-content: center;
         align-items: center;
+        margin-right: 30%;
+    }
+    .pie .email--{
+        font-size: x-small;
+    }
+    .barra-lateral .pie{
         flex-direction: column;
-        margin-left: 20%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80%;
+    }
+    .navbar{
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        padding-left: 50%;
+    }
+    .hero{
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
     }
 
     .hero img{
         margin-top: 50%;
+        margin-right: 20%;
     }
 
     .hero button{
-        width: 80%;
+        width: 70%;
+        margin-right: 70%;
     }
 
     .works{
-        margin-left: 20%;
+        margin-left: 9%;
         align-items: center;
         align-content: center;
         width: 80%;
-        margin-right: 10%;
     }
     .works img{
       height: 250px;
       width: 250px;
+      margin-left: -1.7%;
     }
     .works button{
-        width: 80%;
-        margin-right: 30%;
+        width: 90%;
+        margin-left: 15%;
     }
     .AES .aboutme{
         align-items: center;
@@ -76,17 +147,16 @@
     .contacto{
         flex-direction: column;
         align-items: center;
-        width: 100%;
-        margin-left: 20%;
+        width: 120%;
+        margin-left: 10%;
     }
 
     .contacto .vias-contacto{
         margin-left: 20%;
         width: 80%;
     }
-
 }
-@media(max-width:480px){
+@media(max-width:768px){
     .barra-lateral .encabezado{
         justify-content: center;
         align-items: center;
@@ -172,7 +242,6 @@
         width: 80%;
     }
 }
-@media(max-width:768px){}
 @media(max-width:1024px){}
 @media(max-width:1280px){}
 @media(max-width:1440px){}
