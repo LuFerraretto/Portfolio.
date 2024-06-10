@@ -8,7 +8,7 @@ body{
 
 nav {
     position: fixed;
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: space-evenly;
     width: 70%;
@@ -208,7 +208,6 @@ nav {
 .works img{
     height: 450px;
     width: 450px;
-    color: none;
 }
 
 .proyects{
