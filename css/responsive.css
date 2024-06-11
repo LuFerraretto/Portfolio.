@@ -1,248 +1,818 @@
 @media(max-width:320px){
-   body{
-        width: 10%;
+    .navbar{
+        width: 80%;
+        padding-left: 20%;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
     .barra-lateral{
-        position: fixed;
+        width: 20%;
+        margin-left: 2%;
     }
-
-    .encabezado{
+    .barra-lateral .encabezado{
         flex-direction: column;
-        justify-content: center;
         align-items: center;
+        padding-bottom: 100%;
     }
     .email--{
         font-size: xx-small;
     }
-    .pie{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 30%;
-    }
-    .navbar{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .hero-content{
-        padding-top: 40%;
-        flex-direction: column;
-        justify-content: flex-start;
-        padding-left: 30px;
-    }
 
-    .hero img{
-        padding-top: 40%;
-    }
-
-    .hero button{
-    }
-
-    .works{
-        flex-direction: column;
-        justify-content: flex-start;
-    }
-    .works button{
-    }
-    .AES{
-        align-items: center;
-        justify-content: center;
-    }
-
-    .skills img{
-    }
-
-    .AES .ES .education{
-    }
-
-    .servicios{
-    }
-
-    .contacto{
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .vias-contacto{
-    }
-
-}
-
-@media(max-width:480px){
-    .barra-lateral .encabezado{
-        justify-content: center;
-        align-items: center;
-        margin-right: 30%;
-    }
-    .pie .email--{
-        font-size: x-small;
-    }
-    .barra-lateral .pie{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 80%;
-    }
-    .navbar{
-        flex-direction: column;
-        justify-content: center;
-        align-items: start;
-        padding-left: 50%;
-    }
     .hero{
+        width: 50%;
+        margin-left: 5%;
+        flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        flex-direction: column;
     }
 
     .hero img{
-        margin-top: 50%;
-        margin-right: 20%;
+        width: 80%;
+        margin-top: 40%;
     }
-
+    .hero .hero-content{
+        width: 50%;
+        margin-left: -45%;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        font-size: medium;
+    }
+    .hero div{
+        margin-left: 0%;
+    }
+    .hero .hero-content p{
+        width: 80%;
+    }
     .hero button{
         width: 70%;
-        margin-right: 70%;
+        padding: 5px 7px;
     }
-
     .works{
-        margin-left: 9%;
-        align-items: center;
-        align-content: center;
-        width: 80%;
-    }
-    .works img{
-      height: 250px;
-      width: 250px;
-      margin-left: -1.7%;
-    }
-    .works button{
-        width: 90%;
-        margin-left: 15%;
-    }
-    .AES .aboutme{
-        align-items: center;
+        margin-top: 15%;
+        margin-left: 2%;
         justify-content: center;
-        margin-left: 30%;
-    }
-    .AES .ES{
-        flex-direction: column;
         align-items: center;
-    }
-
-    .AES .ES .skills img{
-        width: 300px;
-    }
-
-    .AES .ES .education{
-        width: 80%;
-        margin-left: 40%;
-    }
-
-    .servicios{
-        padding-left: 20%;
-    }
-
-    .contacto{
         flex-direction: column;
-        align-items: center;
-        width: 120%;
+    }
+    .works h1{
         margin-left: 10%;
     }
 
-    .contacto .vias-contacto{
-        margin-left: 20%;
+    .works .works-button{
+        justify-content: center;
+        margin-left: 0%;
+        margin-top: 15px;
+        width: 60%;
+        height: 60px;
+    }
+    .AES{
+        justify-content: center;
+        align-items: center;
+        margin-left: 8%;
+        padding-top: 10%;
+        flex-direction: column;
+    }
+    .AES .aboutme{
+        width: 60%;
+        margin-left: 1%;
+    }
+    .ES{
+        flex-direction: column;
+    }
+    .ES .education{
+        width: 70%;
+        margin-left: 1%;
+    }
+    .ES .skills{
+        width: 60%;
+        margin-left: 1%;
+    }
+
+    .ES .skills img{
+        width: 90%;
+    }
+    .servicios{
+        margin-left: 0%;
+        width: 60%;
+        margin-top: 15%;
+    }
+    .servicios .listas{
+        width: 40%;
+    }
+    .servicios .galeria{
+        width: 40%;
+        margin-left: 5%;
+    }
+    .servicios .portafolios{
+        width: 40%;
+    }
+    .servicios .formularios{
+        width: 40%;
+        margin-left: 5%;
+    }
+    .servicios .transiciones{
+        width: 40%;
+    }
+    .servicios .paginas-web{
+        width: 40%;
+        margin-left: 5%;
+    }
+    .contacto{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 5%;
+        margin-top: 15%;
+    }
+
+    .contacto form{
         width: 80%;
+        margin-left: 0%;
+    }
+    .contacto .vias-contacto{
+        margin-left: 0.2%;
+    }
+    .contacto .vias-contacto h2{
+        font-size: medium;
+    }
+    .vias-contacto .phone{
+        width: 70%;
+    }
+    .vias-contacto .email{
+        width: 70%;
+    }
+    .email p{
+        font-size: xx-small;
+    }
+    .vias-contacto .address{
+        width: 70%;
+    }
+
+}
+@media(max-width:480px){
+    .navbar{
+        width: 80%;
+        padding-left: 20%;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .barra-lateral{
+        width: 35%;
+        margin-left: 1%;
+        padding-left: 1%;
+    }
+    .barra-lateral .encabezado{
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 100%;
+    }
+    .email--{
+        font-size: xx-small;
+    }
+
+    .hero{
+        width: 80%;
+        margin-left: 5%;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .hero img{
+        width: 100%;
+        margin-top: 40%;
+        margin-left: -8%;
+    }
+    .hero .hero-content{
+        width: 80%;
+        margin-left: -25%;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        font-size: medium;
+    }
+    .hero div{
+        margin-left: 0%;
+    }
+    .hero .hero-content p{
+        width: 80%;
+    }
+    .hero button{
+        width: 70%;
+        margin-left: 30%;
+        padding: 5px 7px;
+    }
+    .works{
+        margin-top: 15%;
+        margin-left: 2%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .works h1{
+        margin-left: 10%;
+    }
+
+    .works .works-button{
+        justify-content: center;
+        margin-left: 0%;
+        margin-top: 15px;
+        width: 60%;
+        height: 60px;
+    }
+    .AES{
+        justify-content: center;
+        align-items: center;
+        margin-left: 8%;
+        padding-top: 10%;
+        flex-direction: column;
+    }
+    .AES .aboutme{
+        width: 60%;
+        margin-left: 1%;
+    }
+    .ES{
+        flex-direction: column;
+    }
+    .ES .education{
+        width: 70%;
+        margin-left: 1%;
+    }
+    .ES .skills{
+        width: 60%;
+        margin-left: 1%;
+    }
+
+    .ES .skills img{
+        width: 90%;
+    }
+    .servicios{
+        margin-left: 0%;
+        width: 60%;
+        margin-top: 15%;
+    }
+    .servicios .listas{
+        width: 40%;
+    }
+    .servicios .galeria{
+        width: 40%;
+        margin-left: 5%;
+    }
+    .servicios .portafolios{
+        width: 40%;
+    }
+    .servicios .formularios{
+        width: 40%;
+        margin-left: 5%;
+    }
+    .servicios .transiciones{
+        width: 40%;
+    }
+    .servicios .paginas-web{
+        width: 40%;
+        margin-left: 5%;
+    }
+    .contacto{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 5%;
+        margin-top: 15%;
+    }
+
+    .contacto form{
+        width: 80%;
+        margin-left: 0%;
+    }
+    .contacto .vias-contacto{
+        margin-left: 0.2%;
+    }
+    .contacto .vias-contacto h2{
+        font-size: xx-large;
+    }
+    .vias-contacto .phone{
+        width: 90%;
+    }
+    .vias-contacto .email{
+        width: 90%;
+    }
+    .email p{
+        font-size: small;
+    }
+    .vias-contacto .address{
+        width: 90%;
     }
 }
 @media(max-width:768px){
-    .barra-lateral .encabezado{
-        justify-content: center;
-        align-items: center;
-        margin-right: 30%;
-    }
-    .pie .email--{
-        font-size: x-small;
-    }
-    .barra-lateral .pie{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 50%;
-    }
     .navbar{
-        flex-direction: column;
+        width: 80%;
+        padding-left: 20%;
         justify-content: center;
-        align-items: start;
-        padding-left: 50%;
+        flex-direction: column;
+        align-items: center;
     }
+    .barra-lateral{
+        width: 35%;
+        margin-left: 1%;
+        padding-left: 1%;
+    }
+    .barra-lateral .encabezado{
+        display: flex;
+        align-items: center;
+        padding-bottom: 100%;
+    }
+    .email--{
+        font-size: xx-small;
+    }
+
     .hero{
+        width: 90%;
+        margin-left: 25%;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
-        margin-left: 10%;
     }
 
     .hero img{
-        margin-top: 50%;
+        width: 100%;
+        margin-top: 40%;
+        margin-left: -8%;
     }
-
-    .hero button{
-        width: 95%;
-    }
-
-    .works{
-        margin-left: 9%;
-        align-items: center;
-        align-content: center;
+    .hero .hero-content{
         width: 80%;
-    }
-    .works img{
-      height: 250px;
-      width: 250px;
-      margin-left: -1.7%;
-    }
-    .works button{
-        width: 90%;
-        margin-left: 15%;
-    }
-    .AES .aboutme{
-        align-items: center;
+        margin-left: -5%;
         justify-content: center;
-        margin-left: 30%;
-    }
-    .AES .ES{
         flex-direction: column;
         align-items: center;
+        font-size: medium;
     }
-
-    .AES .ES .skills img{
-        width: 300px;
+    .hero div{
+        margin-left: 25%;
     }
-
-    .AES .ES .education{
+    .hero .hero-content p{
         width: 80%;
-        margin-left: 40%;
     }
-
-    .servicios{
-        padding-left: 20%;
+    .hero button{
+        width: 70%;
+        margin-left: 5%;
+        padding: 5px 7px;
     }
-
-    .contacto{
-        flex-direction: column;
+    .works{
+        margin-top: 15%;
+        margin-left: 2%;
+        justify-content: center;
         align-items: center;
-        width: 120%;
+        flex-direction: column;
+    }
+    .works h1{
         margin-left: 10%;
     }
 
-    .contacto .vias-contacto{
-        margin-left: 20%;
+    .works .works-button{
+        justify-content: center;
+        margin-left: 15%;
+        margin-top: 15px;
+        width: 60%;
+        height: 60px;
+    }
+    .AES{
+        justify-content: center;
+        align-items: center;
+        margin-left: 8%;
+        padding-top: 10%;
+        flex-direction: column;
+    }
+    .AES .aboutme{
         width: 80%;
+        margin-left: 1%;
+    }
+    .ES{
+        flex-direction: column;
+    }
+    .ES .education{
+        width: 80%;
+        margin-left: 1%;
+    }
+    .ES .skills{
+        width: 80%;
+        margin-left: 1%;
+    }
+
+    .ES .skills img{
+        width: 90%;
+    }
+    .servicios{
+        margin-left: 0%;
+        width: 60%;
+        margin-top: 15%;
+    }
+    .servicios .listas{
+        width: 40%;
+    }
+    .servicios .galeria{
+        width: 40%;
+        margin-left: 5%;
+    }
+    .servicios .portafolios{
+        width: 40%;
+    }
+    .servicios .formularios{
+        width: 40%;
+        margin-left: 5%;
+    }
+    .servicios .transiciones{
+        width: 40%;
+    }
+    .servicios .paginas-web{
+        width: 40%;
+        margin-left: 5%;
+    }
+    .contacto{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 5%;
+        margin-top: 15%;
+    }
+
+    .contacto form{
+        width: 80%;
+        margin-left: 0%;
+    }
+    .contacto .vias-contacto{
+        margin-left: 0.2%;
+    }
+    .contacto .vias-contacto h2{
+        font-size: xx-large;
+    }
+    .vias-contacto .phone{
+        width: 90%;
+    }
+    .vias-contacto .email{
+        width: 90%;
+    }
+    .email p{
+        font-size: small;
+    }
+    .vias-contacto .address{
+        width: 90%;
     }
 }
-@media(max-width:1024px){}
-@media(max-width:1280px){}
-@media(max-width:1440px){}
-@media(max-width:1920px){}
+@media(max-width:1024px){
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 70%;
+        flex-direction: row-reverse;
+        padding-left: 30%;
+    }
+    .barra-lateral{
+        width: 35%;
+        margin-left: 1%;
+        padding-left: 1%;
+    }
+    .barra-lateral .encabezado{
+        display: flex;
+        align-items: center;
+        margin-bottom: 100%;
+    }
+
+    .barra-lateral .pie{
+        margin-top: 100%;
+    }
+    .email--{
+        font-size: small;
+    }
+
+    .hero{
+        width: 90%;
+        margin-left: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero img{
+        width: 60%;
+        margin-top: 10%;
+        margin-left: -3%;
+    }
+    .hero .hero-content{
+        width: 50%;
+        margin-left: 3%;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        font-size: medium;
+    }
+    .hero div{
+        margin-left: 10%;
+    }
+    .hero .hero-content p{
+        width: 80%;
+    }
+    .hero button{
+        width: 70%;
+        margin-left: 5%;
+        padding: 5px 7px;
+    }
+    .works{
+        margin-top: 15%;
+        margin-left: 2%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .works h1{
+        margin-left: 10%;
+    }
+
+    .works .works-button{
+        justify-content: center;
+        margin-left: 15%;
+        margin-top: 15px;
+        width: 60%;
+        height: 60px;
+    }
+    .AES{
+        justify-content: center;
+        align-items: center;
+        margin-left: 8%;
+        padding-top: 10%;
+        flex-direction: column;
+    }
+    .AES .aboutme{
+        width: 80%;
+        margin-left: 1%;
+    }
+    .ES{
+        display: flex;
+    }
+    .ES .education{
+        width: 60%;
+        margin-left: 1%;
+    }
+    .ES .skills{
+        width: 60%;
+        margin-left: 1%;
+    }
+
+    .ES .skills img{
+        width: 80%;
+    }
+    .servicios{
+        margin-left: 0%;
+        width: 90%;
+        margin-top: 15%;
+    }
+    .servicios .listas{
+        width: 40%;
+    }
+    .servicios .galeria{
+        width: 40%;
+        margin-left: 5%;
+    }
+    .servicios .portafolios{
+        width: 40%;
+    }
+    .servicios .formularios{
+        width: 40%;
+        margin-left: 5%;
+    }
+    .servicios .transiciones{
+        width: 40%;
+    }
+    .servicios .paginas-web{
+        width: 40%;
+        margin-left: 5%;
+    }
+    .contacto{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 5%;
+        margin-top: 15%;
+    }
+
+    .contacto form{
+        width: 80%;
+        margin-left: 0%;
+    }
+    .contacto .vias-contacto{
+        margin-left: 0.2%;
+    }
+    .contacto .vias-contacto h2{
+        font-size: xx-large;
+    }
+    .vias-contacto .phone{
+        width: 100%;
+    }
+    .vias-contacto .email{
+        width: 100%;
+    }
+    .email p{
+        font-size: small;
+    }
+    .vias-contacto .address{
+        width: 100%;
+    }
+}
+@media(max-width:1280px){
+    .AES{
+        justify-content: center;
+        align-items: center;
+        margin-left: 8%;
+        padding-top: 10%;
+        flex-direction: column;
+    }
+    .AES .aboutme{
+        width: 80%;
+        margin-left: 1%;
+    }
+    .ES{
+        display: flex;
+    }
+    .ES .education{
+        width: 60%;
+        margin-left: 1%;
+    }
+    .ES .skills{
+        width: 60%;
+        margin-left: 1%;
+    }
+
+    .ES .skills img{
+        width: 80%;
+    }
+    .servicios{
+        margin-left: 0%;
+        width: 90%;
+        margin-top: 15%;
+    }
+    .servicios .listas{
+        width: 40%;
+    }
+    .servicios .galeria{
+        width: 40%;
+        margin-left: 5%;
+    }
+    .servicios .portafolios{
+        width: 40%;
+    }
+    .servicios .formularios{
+        width: 40%;
+        margin-left: 5%;
+    }
+    .servicios .transiciones{
+        width: 40%;
+    }
+    .servicios .paginas-web{
+        width: 40%;
+        margin-left: 5%;
+    }
+}
+@media(max-width:1440px){
+    .barra-lateral .pie{
+        margin-bottom: 0;
+        padding-bottom: 0;
+        margin-top: 200%;
+    }
+    .hero div{
+        margin-left: 25%;
+    }
+    .AES{
+        justify-content: center;
+        align-items: center;
+        margin-left: 8%;
+        padding-top: 10%;
+        flex-direction: column;
+    }
+    .AES .aboutme{
+        width: 80%;
+        margin-left: 1%;
+    }
+    .ES{
+        display: flex;
+    }
+    .ES .education{
+        width: 60%;
+        margin-left: 1%;
+    }
+    .ES .skills{
+        width: 60%;
+        margin-left: 1%;
+    }
+
+    .ES .skills img{
+        width: 80%;
+    }
+    .servicios{
+        margin-left: 0%;
+        width: 90%;
+        margin-top: 15%;
+    }
+    .servicios .listas{
+        width: 40%;
+    }
+    .servicios .galeria{
+        width: 40%;
+        margin-left: 5%;
+    }
+    .servicios .portafolios{
+        width: 40%;
+    }
+    .servicios .formularios{
+        width: 40%;
+        margin-left: 5%;
+    }
+    .servicios .transiciones{
+        width: 40%;
+    }
+    .servicios .paginas-web{
+        width: 40%;
+        margin-left: 5%;
+    }
+}
+@media(max-width:1920px){
+    .hero{
+        width: 80%;
+        margin-left: 35%;
+        display: flex;
+        align-items: center;
+    }
+    .hero img{
+        margin-top: 15%;
+    }
+    .hero-content{
+        margin-left: 35%;
+        padding-top: 10%;
+    }
+    .barra-lateral .pie{
+        margin-bottom: 0;
+        padding-bottom: 0;
+        margin-top: 110%;
+    }
+    .hero .hero-content div{
+        margin-left: -13%;
+    }
+
+    .hero .hero-content p{
+        width: 80%;
+    }
+    .AES{
+        justify-content: center;
+        align-items: center;
+        margin-left: 8%;
+        padding-top: 10%;
+        flex-direction: column;
+    }
+    .AES .aboutme{
+        width: 80%;
+        margin-left: 1%;
+    }
+    .ES{
+        display: flex;
+    }
+    .ES .education{
+        width: 60%;
+        margin-left: 1%;
+    }
+    .ES .skills{
+        width: 60%;
+        margin-left: 1%;
+    }
+
+    .ES .skills img{
+        width: 80%;
+    }
+    .servicios{
+        margin-left: 0%;
+        width: 90%;
+        margin-top: 15%;
+    }
+    .servicios .listas{
+        width: 40%;
+    }
+    .servicios .galeria{
+        width: 40%;
+        margin-left: 5%;
+    }
+    .servicios .portafolios{
+        width: 40%;
+    }
+    .servicios .formularios{
+        width: 40%;
+        margin-left: 5%;
+    }
+    .servicios .transiciones{
+        width: 40%;
+    }
+    .servicios .paginas-web{
+        width: 40%;
+        margin-left: 5%;
+    }
+}
