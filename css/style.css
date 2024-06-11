@@ -90,6 +90,11 @@ nav {
     color: var(--hero-bg-color);
  }
 
+ .barra-lateral img{
+    width: 15%;
+    padding-right: 5%;
+ }
+
 .barra-lateral .encabezado{
     display: flex;
     align-items: center;
@@ -115,7 +120,9 @@ nav {
 .barra-lateral i{
     padding-right: 10%;
 }
-
+ .pie a{
+    color: white;
+ }
 
 .hero {
     display: flex;
@@ -224,12 +231,19 @@ nav {
     align-items: center;
     margin-left: 30%;
     padding-top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .AES h1{
     font-family: "Bebas Neue", sans-serif;
     font-size: xx-large;
     letter-spacing: 2px;
+}
+
+.AES h2{
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1.5px;
+    font-size: medium;
 }
 
 .aboutme{
@@ -259,6 +273,7 @@ nav {
     margin-left: 30%;
     width: 70%;
     margin-top: 15%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .servicios h1{
@@ -364,6 +379,7 @@ form input{
     border-top: none;
     border-left: none;
     border-right: none;
+    color: var(--border-color);
     border-bottom: solid 1px var(--form-text-color);
     padding-top: 8%;
     padding-bottom: 2%;
